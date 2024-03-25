@@ -2,7 +2,7 @@
 
 > Keylogger is a program that records the keystrokes of mouse or keyboard, and is generally used to steal sensitive information
 
-**Note: Can't track special characters**
+**Note: This project can't track special characters at the moment**
 
 ### Features:
 - Can track keyboard input continously or based on network traffic 
