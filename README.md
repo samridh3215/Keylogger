@@ -14,3 +14,5 @@
 ### TODO
 - Send log files to remote destination 
 - Resolve special character issue
+- Take screenshots periodically
+  
